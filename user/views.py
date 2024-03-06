@@ -7,7 +7,7 @@ from rest_framework import viewsets, status, generics
 from rest_framework.response import Response
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.permissions import AllowAny, IsAdminUser
-from Admin_panel.permissions import IsAdminUserOrStaff
+from admin_panel.permissions import IsAdminUserOrStaff
 from rest_framework_simplejwt.tokens import RefreshToken
 
 from .models import CustomUser
