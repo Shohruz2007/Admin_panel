@@ -3,7 +3,7 @@ import datetime
 from rest_framework import viewsets, status, generics
 from rest_framework.response import Response
 from rest_framework.permissions import AllowAny, IsAdminUser
-from admin_panel.permissions import IsAdminUserOrStaff, IsAdminUser
+from Admin_panel.permissions import IsAdminUserOrStaff, IsAdminUser
 from rest_framework_simplejwt.tokens import RefreshToken
 
 
